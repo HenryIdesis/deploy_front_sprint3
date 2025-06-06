@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { listarAlunos, deleteAluno } from "../../api/alunos";
-import { listarFrequencias } from "../../api/frequencias";
+import { listarFrequenciasBatch } from "../../api/frequencias";
 import { Link } from "react-router-dom";
 import { Card, CardHeader, CardContent, CardTitle } from "../../components/ui/card";
 import { Button } from "../../components/ui/button";
@@ -46,33 +46,27 @@ export default function AlunoListPage() {
         const idsBaixaFrequencia = new Set();
         
         try {
-          const promises = students.map(async (aluno) => {
-            try {
-              const frequenciasDoAluno = await listarFrequencias(aluno.id);
-              if (frequenciasDoAluno && frequenciasDoAluno.length > 0) {
-                // Encontra o registro do último ano
-                const ultimoRegistroAnual = frequenciasDoAluno.reduce((ult, atual) => {
-                  return (ult.ano || 0) > (atual.ano || 0) ? ult : atual;
-                });
-
-                const percentPresenca = ultimoRegistroAnual.percentPresenca || 0;
-                frequenciaMap.set(aluno.id, percentPresenca);
-                
-                // Se a frequência for menor que 75%, adiciona na lista de baixa frequência
-                if (percentPresenca < 75) {
-                  idsBaixaFrequencia.add(aluno.id);
-                }
-              }
-            } catch (error) {
-              console.error(`Erro ao carregar frequência do aluno ${aluno.id}:`, error);
+          // Extrair IDs dos alunos
+          const alunoIds = students.map(aluno => aluno.id);
+          
+          // Fazer uma única requisição para todos os alunos
+          const frequenciasBatch = await listarFrequenciasBatch(alunoIds);
+          
+          // Processar os dados recebidos
+          Object.entries(frequenciasBatch).forEach(([alunoId, dadosFrequencia]) => {
+            const percentPresenca = dadosFrequencia.percentPresenca || 0;
+            frequenciaMap.set(alunoId, percentPresenca);
+            
+            // Se a frequência for menor que 75%, adiciona na lista de baixa frequência
+            if (percentPresenca < 75) {
+              idsBaixaFrequencia.add(alunoId);
             }
           });
           
-          await Promise.all(promises);
           setFrequenciaStatusPorAluno(frequenciaMap);
           setAlunosComBaixaFrequenciaIds(idsBaixaFrequencia);
         } catch (error) {
-          console.error("Erro ao processar frequências:", error);
+          console.error("Erro ao carregar frequências:", error);
         } finally {
           setIsLoadingFrequenciaData(false);
         }
@@ -87,24 +81,22 @@ export default function AlunoListPage() {
       const fetchFrequenciasEFiltrar = async () => {
         setIsLoadingFrequenciaData(true);
         const idsBaixaFrequencia = new Set();
+        
         try {
-          const promises = students.map(async (aluno) => {
-            try {
-              const frequenciasDoAluno = await listarFrequencias(aluno.id);
-              if (frequenciasDoAluno && frequenciasDoAluno.length > 0) {
-                const ultimoRegistroAnual = frequenciasDoAluno.reduce((ult, atual) => {
-                  return (ult.ano || 0) > (atual.ano || 0) ? ult : atual;
-                });
-
-                if (ultimoRegistroAnual && ultimoRegistroAnual.percentPresenca < percentualFiltroFrequencia) {
-                  idsBaixaFrequencia.add(aluno.id);
-                }
-              }
-            } catch (error) {
-              console.error(`Erro ao carregar frequência do aluno ${aluno.id}:`, error);
+          // Extrair IDs dos alunos
+          const alunoIds = students.map(aluno => aluno.id);
+          
+          // Fazer uma única requisição para todos os alunos
+          const frequenciasBatch = await listarFrequenciasBatch(alunoIds);
+          
+          // Processar os dados recebidos e filtrar
+          Object.entries(frequenciasBatch).forEach(([alunoId, dadosFrequencia]) => {
+            const percentPresenca = dadosFrequencia.percentPresenca || 0;
+            if (percentPresenca < percentualFiltroFrequencia) {
+              idsBaixaFrequencia.add(alunoId);
             }
           });
-          await Promise.all(promises);
+          
           setAlunosComBaixaFrequenciaIds(idsBaixaFrequencia);
         } catch (error) {
           console.error("Erro ao processar frequências para filtro:", error);
@@ -112,35 +104,35 @@ export default function AlunoListPage() {
           setIsLoadingFrequenciaData(false);
         }
       };
+      
       fetchFrequenciasEFiltrar();
     } else if (!filtroBaixaFrequenciaAtivo) {
       const carregarDadosFrequenciaBase = async () => {
         if (students.length > 0) {
           const idsBaixaFrequencia = new Set();
+          
           try {
-            const promises = students.map(async (aluno) => {
-              try {
-                const frequenciasDoAluno = await listarFrequencias(aluno.id);
-                if (frequenciasDoAluno && frequenciasDoAluno.length > 0) {
-                  const ultimoRegistroAnual = frequenciasDoAluno.reduce((ult, atual) => {
-                    return (ult.ano || 0) > (atual.ano || 0) ? ult : atual;
-                  });
-
-                  if (ultimoRegistroAnual && ultimoRegistroAnual.percentPresenca < 75) {
-                    idsBaixaFrequencia.add(aluno.id);
-                  }
-                }
-              } catch (error) {
-                console.error(`Erro ao carregar frequência do aluno ${aluno.id}:`, error);
+            // Extrair IDs dos alunos
+            const alunoIds = students.map(aluno => aluno.id);
+            
+            // Fazer uma única requisição para todos os alunos
+            const frequenciasBatch = await listarFrequenciasBatch(alunoIds);
+            
+            // Processar os dados recebidos
+            Object.entries(frequenciasBatch).forEach(([alunoId, dadosFrequencia]) => {
+              const percentPresenca = dadosFrequencia.percentPresenca || 0;
+              if (percentPresenca < 75) {
+                idsBaixaFrequencia.add(alunoId);
               }
             });
-            await Promise.all(promises);
+            
             setAlunosComBaixaFrequenciaIds(idsBaixaFrequencia);
           } catch (error) {
             console.error("Erro ao processar frequências:", error);
           }
         }
       };
+      
       carregarDadosFrequenciaBase();
     }
   }, [filtroBaixaFrequenciaAtivo, students, percentualFiltroFrequencia]);

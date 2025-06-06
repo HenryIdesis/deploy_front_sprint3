@@ -1,0 +1,2629 @@
+[{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff0b"
+  },
+  "nome": "Diego",
+  "sobrenome": "Rocha",
+  "dataNascimento": {
+    "$date": "2009-06-06T23:55:32.373Z"
+  },
+  "anoEscolar": "5º Ano",
+  "periodo": "Tarde",
+  "endereco": "Viela de Farias, 5\nHeliopolis\n32025290 da Rocha dos Dourados / CE",
+  "contatosResponsaveis": [
+    {
+      "nome": "Arthur Lima",
+      "fone": "71 6983-9097",
+      "email": "theo84@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Uso de Medicação Controlada",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240001",
+  "ra": "RA279374",
+  "cpf": "791.860.352-40",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.379Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff0c"
+  },
+  "nome": "Rafael",
+  "sobrenome": "Alves",
+  "dataNascimento": {
+    "$date": "2017-06-21T23:55:32.376Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Manhã",
+  "endereco": "Sítio Azevedo, 39\nBarroca\n08577206 Siqueira da Prata / TO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Stella Brito",
+      "fone": "+55 61 4811 0602",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Autismo",
+    "Problema Alimentar"
+  ],
+  "matricula": "20240002",
+  "ra": "RA837577",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.620Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff0d"
+  },
+  "nome": "Benjamim",
+  "sobrenome": "Correia",
+  "dataNascimento": {
+    "$date": "2013-02-16T23:55:32.376Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Noite",
+  "endereco": "Vereda Ribeiro\nCorumbiara\n32636-122 Fernandes do Campo / ES",
+  "contatosResponsaveis": [
+    {
+      "nome": "Lorena Castro",
+      "fone": "21 3863 5541",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Comportamental"
+  ],
+  "matricula": "20240003",
+  "ra": "RA764290",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.635Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff0e"
+  },
+  "nome": "Juliana",
+  "sobrenome": "Cardoso",
+  "dataNascimento": {
+    "$date": "2012-05-26T23:55:32.376Z"
+  },
+  "anoEscolar": "9º Ano",
+  "periodo": "Noite",
+  "endereco": "Colônia Ravy Moraes, 58\nLeticia\n60733987 Santos / SE",
+  "contatosResponsaveis": [
+    {
+      "nome": "Ryan Moura",
+      "fone": "+55 (071) 7480-7839",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Necessita Atenção Especial",
+    "Deficiência Intelectual",
+    "Problema de Comunicação",
+    "Negligência Familiar"
+  ],
+  "matricula": "20240004",
+  "ra": "RA593321",
+  "cpf": "512.098.743-50",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.649Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff0f"
+  },
+  "nome": "Marina",
+  "sobrenome": "Nascimento",
+  "dataNascimento": {
+    "$date": "2015-01-15T23:55:32.376Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Noite",
+  "endereco": "Loteamento Cavalcanti, 33\nMangabeiras\n97995505 Farias de Porto / DF",
+  "contatosResponsaveis": [
+    {
+      "nome": "Evelyn da Costa",
+      "fone": "31 8558 6901",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema de Comunicação",
+    "Problema Familiar",
+    "TDAH"
+  ],
+  "matricula": "20240005",
+  "ra": "RA404544",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.664Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff10"
+  },
+  "nome": "Ana Laura",
+  "sobrenome": "Costa",
+  "dataNascimento": {
+    "$date": "2015-08-01T23:55:32.376Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Marcos Vinicius Costela",
+      "fone": "0300-584-4106",
+      "email": "kpimenta@example.com"
+    },
+    {
+      "nome": "Bianca Campos",
+      "fone": "41 1593 3848",
+      "email": "wbarros@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Transtorno Opositor",
+    "Violência Doméstica",
+    "Autismo"
+  ],
+  "matricula": "20240006",
+  "ra": "RA378774",
+  "cpf": "019.764.532-16",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.675Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff11"
+  },
+  "nome": "Bella",
+  "sobrenome": "Rodrigues",
+  "dataNascimento": {
+    "$date": "2018-05-07T23:55:32.377Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Levi Camargo",
+      "fone": "+55 31 0799-6817",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar",
+    "Isolamento Social",
+    "Deficiência Física",
+    "Violência Doméstica"
+  ],
+  "matricula": "20240007",
+  "ra": "RA556682",
+  "cpf": "428.175.903-41",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.689Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff12"
+  },
+  "nome": "Luara",
+  "sobrenome": "Souza",
+  "dataNascimento": {
+    "$date": "2017-10-28T23:55:32.377Z"
+  },
+  "anoEscolar": "4º Ano",
+  "periodo": "Manhã",
+  "endereco": "Recanto Lopes, 33\nVila Real 1ª Seção\n73877108 das Neves / AM",
+  "contatosResponsaveis": [
+    {
+      "nome": "João Miguel Cassiano",
+      "fone": "+55 (051) 2081-4113",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Negligência Familiar"
+  ],
+  "matricula": "20240008",
+  "ra": "RA269969",
+  "cpf": "240.678.359-65",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.703Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff13"
+  },
+  "nome": "João Lucas",
+  "sobrenome": "Alves",
+  "dataNascimento": {
+    "$date": "2012-08-19T23:55:32.377Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Tarde",
+  "endereco": "Via de da Mota, 49\nSão Jorge 3ª Seção\n03072917 Jesus das Pedras / PE",
+  "contatosResponsaveis": [
+    {
+      "nome": "Jade Abreu",
+      "fone": "+55 (021) 6275-1627",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Agressividade",
+    "Depressão Infantil",
+    "Transtorno Opositor"
+  ],
+  "matricula": "20240009",
+  "ra": "RA491478",
+  "cpf": "358.274.096-00",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.717Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff14"
+  },
+  "nome": "João Vitor",
+  "sobrenome": "Correia",
+  "dataNascimento": {
+    "$date": "2018-02-11T23:55:32.377Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Manhã",
+  "endereco": "Passarela Ágatha Monteiro, 22\nSanta Terezinha\n24623-417 Moreira de Barbosa / PB",
+  "contatosResponsaveis": [
+    {
+      "nome": "Vinicius Pereira",
+      "fone": "+55 31 5641-7582",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Transtorno Opositor"
+  ],
+  "matricula": "20240010",
+  "ra": "RA460482",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.729Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff15"
+  },
+  "nome": "Valentina",
+  "sobrenome": "Gomes",
+  "dataNascimento": {
+    "$date": "2008-09-12T23:55:32.377Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Noite",
+  "endereco": "Condomínio Alexia Nogueira, 89\nCampo Alegre\n54525-645 Fonseca / DF",
+  "contatosResponsaveis": [
+    {
+      "nome": "Maria Clara Ribeiro",
+      "fone": "+55 41 7309-5254",
+      "email": "lorenapeixoto@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Autismo",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240011",
+  "ra": "RA647122",
+  "cpf": "719.348.620-96",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.743Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff16"
+  },
+  "nome": "Brayan",
+  "sobrenome": "Santos",
+  "dataNascimento": {
+    "$date": "2011-08-03T23:55:32.377Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Manhã",
+  "endereco": "Viela Novais, 853\nVila Nova Gameleira 2ª Seção\n51268789 Mendes / SE",
+  "contatosResponsaveis": [
+    {
+      "nome": "Aylla Novaes",
+      "fone": "(084) 7119 5214",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Ansiedade",
+    "Violência Doméstica",
+    "Autismo"
+  ],
+  "matricula": "20240012",
+  "ra": "RA680140",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.762Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff17"
+  },
+  "nome": "Theodoro",
+  "sobrenome": "Reis",
+  "dataNascimento": {
+    "$date": "2012-01-04T23:55:32.377Z"
+  },
+  "anoEscolar": "9º Ano",
+  "periodo": "Manhã",
+  "endereco": "Avenida João Guilherme Câmara, 522\nCamargos\n79710-308 Alves Grande / TO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Nicole Câmara",
+      "fone": "+55 21 5560 4144",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Dificuldade de Aprendizagem",
+    "Violência Doméstica"
+  ],
+  "matricula": "20240013",
+  "ra": "RA456336",
+  "cpf": "645.781.902-85",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.777Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff18"
+  },
+  "nome": "Antony",
+  "sobrenome": "Rocha",
+  "dataNascimento": {
+    "$date": "2011-09-25T23:55:32.377Z"
+  },
+  "anoEscolar": "9º Ano",
+  "periodo": "Tarde",
+  "endereco": "Praça Luan Marques, 83\nJoão Paulo Ii\n56907758 Porto de Moraes / PB",
+  "contatosResponsaveis": [
+    {
+      "nome": "Luiz Gustavo Vargas",
+      "fone": "(061) 1942 7168",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar",
+    "Agressividade"
+  ],
+  "matricula": "20240014",
+  "ra": "RA735726",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.790Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff19"
+  },
+  "nome": "Melissa",
+  "sobrenome": "Lima",
+  "dataNascimento": {
+    "$date": "2015-06-28T23:55:32.377Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Manhã",
+  "endereco": "Quadra da Mota, 93\nVila Independencia 2ª Seção\n06865-658 Freitas / TO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Cecilia das Neves",
+      "fone": "+55 (011) 4109 8763",
+      "email": "danielada-conceicao@example.org"
+    },
+    {
+      "nome": "Matheus Mendonça",
+      "fone": "+55 11 6324-7476",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Uso de Medicação Controlada",
+    "Autismo",
+    "TDAH",
+    "Transtorno Opositor"
+  ],
+  "matricula": "20240015",
+  "ra": "RA803870",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.803Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff1a"
+  },
+  "nome": "Gabrielly",
+  "sobrenome": "Reis",
+  "dataNascimento": {
+    "$date": "2009-04-15T23:55:32.377Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Tarde",
+  "endereco": "Morro de Pastor\nVila Tirol\n13217-756 Barros de Pinto / PR",
+  "contatosResponsaveis": [
+    {
+      "nome": "Maria Moraes",
+      "fone": "+55 (081) 4101 0142",
+      "email": "cunhayago@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Uso de Medicação Controlada",
+    "TDAH",
+    "Problema de Comunicação",
+    "Problema Familiar"
+  ],
+  "matricula": "20240016",
+  "ra": "RA715584",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.817Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff1b"
+  },
+  "nome": "João Miguel",
+  "sobrenome": "Araújo",
+  "dataNascimento": {
+    "$date": "2014-01-12T23:55:32.377Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Tarde",
+  "endereco": null,
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Comportamental",
+    "Problema Alimentar",
+    "Autismo",
+    "Agressividade"
+  ],
+  "matricula": "20240017",
+  "ra": "RA177166",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.829Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff1c"
+  },
+  "nome": "Marcelo",
+  "sobrenome": "Rocha",
+  "dataNascimento": {
+    "$date": "2017-11-20T23:55:32.377Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Noite",
+  "endereco": "Praça de Araújo, 8\nVista Do Sol\n38406-618 Ribeiro / MG",
+  "contatosResponsaveis": [
+    {
+      "nome": "Isabella Sá",
+      "fone": "(071) 3531-6600",
+      "email": null
+    },
+    {
+      "nome": "Dr. Breno Abreu",
+      "fone": "+55 21 8664 4351",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Isolamento Social"
+  ],
+  "matricula": "20240018",
+  "ra": "RA749177",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.844Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff1d"
+  },
+  "nome": "Arthur",
+  "sobrenome": "Rodrigues",
+  "dataNascimento": {
+    "$date": "2016-06-08T23:55:32.377Z"
+  },
+  "anoEscolar": "4º Ano",
+  "periodo": "Tarde",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Bernardo Silva",
+      "fone": "(081) 1275 1249",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Física",
+    "Problema Alimentar",
+    "Agressividade"
+  ],
+  "matricula": "20240019",
+  "ra": "RA642174",
+  "cpf": "076.819.524-11",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.857Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff1e"
+  },
+  "nome": "Pietro",
+  "sobrenome": "Santos",
+  "dataNascimento": {
+    "$date": "2015-02-21T23:55:32.377Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Tarde",
+  "endereco": "Praia Danilo Camargo, 471\nBaleia\n18430006 Silveira das Flores / MG",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Familiar",
+    "Dificuldade de Aprendizagem"
+  ],
+  "matricula": "20240020",
+  "ra": "RA694442",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.870Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff1f"
+  },
+  "nome": "Alícia",
+  "sobrenome": "Nunes",
+  "dataNascimento": {
+    "$date": "2016-07-17T23:55:32.377Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Noite",
+  "endereco": "Conjunto Gabriela Correia, 4\nVila Barragem Santa Lúcia\n38458-775 Castro Paulista / MT",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema de Comunicação",
+    "Agressividade"
+  ],
+  "matricula": "20240021",
+  "ra": "RA908498",
+  "cpf": "541.806.297-20",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.885Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff20"
+  },
+  "nome": "Amanda",
+  "sobrenome": "Martins",
+  "dataNascimento": {
+    "$date": "2016-01-29T23:55:32.377Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Tarde",
+  "endereco": "Trevo de Cassiano, 50\nCamponesa 1ª Seção\n64825588 Moraes / AM",
+  "contatosResponsaveis": [
+    {
+      "nome": "Alícia Caldeira",
+      "fone": "(021) 8873-6147",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar",
+    "Agressividade",
+    "Dislexia",
+    "Uso de Medicação Controlada"
+  ],
+  "matricula": "20240022",
+  "ra": "RA491988",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.898Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff21"
+  },
+  "nome": "Hadassa",
+  "sobrenome": "Silva",
+  "dataNascimento": {
+    "$date": "2013-03-19T23:55:32.378Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Tarde",
+  "endereco": "Residencial Gomes, 32\nTupi B\n08218457 Vieira de Camargo / ES",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Isolamento Social",
+    "Ansiedade"
+  ],
+  "matricula": "20240023",
+  "ra": "RA150162",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.912Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff22"
+  },
+  "nome": "Thiago",
+  "sobrenome": "Machado",
+  "dataNascimento": {
+    "$date": "2017-04-03T23:55:32.378Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Allana Guerra",
+      "fone": "51 5323 7289",
+      "email": "ana-carolina83@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Dislexia",
+    "Dificuldade de Aprendizagem",
+    "Necessita Atenção Especial"
+  ],
+  "matricula": "20240024",
+  "ra": "RA184101",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.924Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff23"
+  },
+  "nome": "Cauã",
+  "sobrenome": "Rodrigues",
+  "dataNascimento": {
+    "$date": "2008-08-22T23:55:32.378Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Manhã",
+  "endereco": "Aeroporto de Gonçalves, 85\nVila Paquetá\n12833-293 Dias da Mata / RS",
+  "contatosResponsaveis": [
+    {
+      "nome": "João Pedro Rios",
+      "fone": "(071) 8391 4725",
+      "email": "mirella39@example.org"
+    },
+    {
+      "nome": "Breno Nascimento",
+      "fone": "+55 81 5089-1794",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Dificuldade de Aprendizagem",
+    "Problema de Comunicação",
+    "Negligência Familiar",
+    "Deficiência Física"
+  ],
+  "matricula": "20240025",
+  "ra": "RA963909",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.939Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff24"
+  },
+  "nome": "Sophie",
+  "sobrenome": "Souza",
+  "dataNascimento": {
+    "$date": "2015-12-05T23:55:32.378Z"
+  },
+  "anoEscolar": "9º Ano",
+  "periodo": "Tarde",
+  "endereco": null,
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica",
+    "Baixa Frequência"
+  ],
+  "matricula": "20240026",
+  "ra": "RA946579",
+  "cpf": "896.370.124-78",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.951Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff25"
+  },
+  "nome": "Julia",
+  "sobrenome": "Ferreira",
+  "dataNascimento": {
+    "$date": "2010-12-17T23:55:32.378Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Noite",
+  "endereco": "Campo Mendonça, 892\nEymard\n74588-228 da Rosa / SP",
+  "contatosResponsaveis": [
+    {
+      "nome": "Sra. Larissa Fonseca",
+      "fone": "81 5110 2118",
+      "email": "mateuslima@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Agressividade",
+    "Depressão Infantil",
+    "Autismo",
+    "Dislexia"
+  ],
+  "matricula": "20240027",
+  "ra": "RA154454",
+  "cpf": "827.561.940-85",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.966Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff26"
+  },
+  "nome": "Juan",
+  "sobrenome": "Costa",
+  "dataNascimento": {
+    "$date": "2009-10-08T23:55:32.378Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Noite",
+  "endereco": "Largo Caldeira\nMineirão\n23751-538 da Cunha / PA",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Transtorno Opositor",
+    "Problema Comportamental",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240028",
+  "ra": "RA870006",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.978Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a49b91040e4b9eff27"
+  },
+  "nome": "Sophie",
+  "sobrenome": "Melo",
+  "dataNascimento": {
+    "$date": "2009-06-15T23:55:32.378Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Noite",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Luiz Otávio Barbosa",
+      "fone": "(031) 0887 5953",
+      "email": "da-rosathales@example.net"
+    },
+    {
+      "nome": "Henry Fonseca",
+      "fone": "+55 81 1090-4157",
+      "email": "zgoncalves@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Ansiedade",
+    "Problema Comportamental"
+  ],
+  "matricula": "20240029",
+  "ra": "RA796694",
+  "cpf": "138.794.256-55",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:32.992Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff28"
+  },
+  "nome": "Théo",
+  "sobrenome": "Carvalho",
+  "dataNascimento": {
+    "$date": "2016-04-14T23:55:32.378Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Tarde",
+  "endereco": "Vereda de Melo, 36\nCruzeiro\n55720-158 Gonçalves / PI",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema de Comunicação",
+    "Autismo",
+    "Ansiedade",
+    "Problema Alimentar"
+  ],
+  "matricula": "20240030",
+  "ra": "RA443998",
+  "cpf": "259.617.084-11",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.006Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff29"
+  },
+  "nome": "Apollo",
+  "sobrenome": "Martins",
+  "dataNascimento": {
+    "$date": "2019-03-31T23:55:32.378Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Tarde",
+  "endereco": "Lagoa de Aparecida, 74\nMarçola\n92590-117 Camargo / TO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Maria Souza",
+      "fone": "41 8670-2079",
+      "email": "ravi-lucca10@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica",
+    "Transtorno Opositor",
+    "Baixa Frequência"
+  ],
+  "matricula": "20240031",
+  "ra": "RA886110",
+  "cpf": "935.216.874-73",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.018Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff2a"
+  },
+  "nome": "Asafe",
+  "sobrenome": "Oliveira",
+  "dataNascimento": {
+    "$date": "2018-04-21T23:55:32.378Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Tarde",
+  "endereco": "Condomínio de Oliveira, 7\nMaravilha\n71629963 da Cunha da Mata / PA",
+  "contatosResponsaveis": [
+    {
+      "nome": "Luiz Gustavo Gonçalves",
+      "fone": "+55 84 0026 2612",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Intelectual",
+    "Baixa Frequência",
+    "Agressividade"
+  ],
+  "matricula": "20240032",
+  "ra": "RA529005",
+  "cpf": "537.482.690-56",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.033Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff2b"
+  },
+  "nome": "Ana Clara",
+  "sobrenome": "Correia",
+  "dataNascimento": {
+    "$date": "2010-04-25T23:55:32.378Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Noite",
+  "endereco": "Alameda Almeida\nCinquentenário\n50371-654 Moreira dos Dourados / ES",
+  "contatosResponsaveis": [
+    {
+      "nome": "Maria Júlia Fonseca",
+      "fone": "(031) 9178 1241",
+      "email": null
+    },
+    {
+      "nome": "Julia Casa Grande",
+      "fone": "+55 (021) 0660-5362",
+      "email": "gomesleandro@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar"
+  ],
+  "matricula": "20240033",
+  "ra": "RA201856",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.046Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff2c"
+  },
+  "nome": "Bernardo",
+  "sobrenome": "Pereira",
+  "dataNascimento": {
+    "$date": "2017-11-01T23:55:32.378Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Tarde",
+  "endereco": null,
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica"
+  ],
+  "matricula": "20240034",
+  "ra": "RA970402",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.061Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff2d"
+  },
+  "nome": "Matteo",
+  "sobrenome": "Silva",
+  "dataNascimento": {
+    "$date": "2017-04-26T23:55:32.378Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Noite",
+  "endereco": null,
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar",
+    "Violência Doméstica",
+    "Problema Comportamental",
+    "Dificuldade de Aprendizagem"
+  ],
+  "matricula": "20240035",
+  "ra": "RA420974",
+  "cpf": "851.397.406-48",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.072Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff2e"
+  },
+  "nome": "Zoe",
+  "sobrenome": "Alves",
+  "dataNascimento": {
+    "$date": "2008-06-29T23:55:32.378Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Tarde",
+  "endereco": "Condomínio Bryan Nascimento, 24\nVila Trinta E Um De Março\n87576203 Rocha / RN",
+  "contatosResponsaveis": [
+    {
+      "nome": "Oliver Mendes",
+      "fone": "+55 (084) 5281 5095",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240036",
+  "ra": "RA267667",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.087Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff2f"
+  },
+  "nome": "Stella",
+  "sobrenome": "Santos",
+  "dataNascimento": {
+    "$date": "2015-02-22T23:55:32.378Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Noite",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Brenda Araújo",
+      "fone": "(061) 9864 3071",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Agressividade",
+    "Transtorno Opositor",
+    "Dificuldade de Aprendizagem",
+    "Problema Comportamental"
+  ],
+  "matricula": "20240037",
+  "ra": "RA169018",
+  "cpf": "409.758.213-50",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.100Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff30"
+  },
+  "nome": "Isabelly",
+  "sobrenome": "Carvalho",
+  "dataNascimento": {
+    "$date": "2010-09-06T23:55:32.378Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Tarde",
+  "endereco": "Praia Maria Vitória da Paz\nSanto Antônio\n59635-737 Cirino de Goiás / RO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Lara Aparecida",
+      "fone": "+55 (041) 7231-1927",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Intelectual",
+    "Dislexia",
+    "TDAH"
+  ],
+  "matricula": "20240038",
+  "ra": "RA826670",
+  "cpf": "968.123.754-46",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.114Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff31"
+  },
+  "nome": "Danilo",
+  "sobrenome": "Melo",
+  "dataNascimento": {
+    "$date": "2009-11-28T23:55:32.378Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Tarde",
+  "endereco": "Praça Brito, 5\nCastanheira\n14480674 Guerra do Sul / MG",
+  "contatosResponsaveis": [
+    {
+      "nome": "Davi Lucca Cirino",
+      "fone": "(081) 8052-0532",
+      "email": "benjaminramos@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Intelectual",
+    "Problema Comportamental"
+  ],
+  "matricula": "20240039",
+  "ra": "RA357452",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.129Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684258a59b91040e4b9eff32"
+  },
+  "nome": "Liam",
+  "sobrenome": "Rodrigues",
+  "dataNascimento": {
+    "$date": "2017-03-27T23:55:32.378Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Noite",
+  "endereco": "Vale Paulo Teixeira\nVila Madre Gertrudes 3ª Seção\n56622170 Macedo / RO",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Física"
+  ],
+  "matricula": "20240040",
+  "ra": "RA678823",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-06T02:55:33.140Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fd3"
+  },
+  "nome": "Isaque",
+  "sobrenome": "Silva",
+  "dataNascimento": {
+    "$date": "2016-04-06T23:57:26.137Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Tarde",
+  "endereco": "Travessa Azevedo, 67\nSão Benedito\n74987-883 Camargo / PB",
+  "contatosResponsaveis": [
+    {
+      "nome": "Maria Liz Lopes",
+      "fone": "(061) 4697 2802",
+      "email": "wbarros@example.net"
+    },
+    {
+      "nome": "Olívia Souza",
+      "fone": "71 3496-9447",
+      "email": "oliverporto@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar"
+  ],
+  "matricula": "20240001",
+  "ra": "RA432391",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.143Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fd4"
+  },
+  "nome": "Lorena",
+  "sobrenome": "Barbosa",
+  "dataNascimento": {
+    "$date": "2008-11-18T23:57:26.140Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Noite",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Sr. Calebe Leão",
+      "fone": "+55 31 0227 1335",
+      "email": "hleao@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Isolamento Social",
+    "TDAH"
+  ],
+  "matricula": "20240002",
+  "ra": "RA897628",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.330Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fd5"
+  },
+  "nome": "Laura",
+  "sobrenome": "Nascimento",
+  "dataNascimento": {
+    "$date": "2011-12-26T23:57:26.140Z"
+  },
+  "anoEscolar": "9º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Sra. Gabrielly Rodrigues",
+      "fone": "+55 71 2452-9446",
+      "email": "sousamatteo@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Necessita Atenção Especial",
+    "Problema Comportamental"
+  ],
+  "matricula": "20240003",
+  "ra": "RA483221",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.341Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fd6"
+  },
+  "nome": "Isabel",
+  "sobrenome": "Alves",
+  "dataNascimento": {
+    "$date": "2015-06-09T23:57:26.140Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Tarde",
+  "endereco": "Praça de Melo, 3\nVila Da Ária\n17058614 Câmara de Gonçalves / MT",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Familiar",
+    "TDAH",
+    "Autismo"
+  ],
+  "matricula": "20240004",
+  "ra": "RA989856",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.357Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fd7"
+  },
+  "nome": "Otto",
+  "sobrenome": "Souza",
+  "dataNascimento": {
+    "$date": "2008-06-23T23:57:26.140Z"
+  },
+  "anoEscolar": "4º Ano",
+  "periodo": "Noite",
+  "endereco": "Pátio de Aragão\nSalgado Filho\n02008778 Rezende / PB",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "TDAH"
+  ],
+  "matricula": "20240005",
+  "ra": "RA908146",
+  "cpf": "853.217.046-35",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.371Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fd8"
+  },
+  "nome": "Joana",
+  "sobrenome": "Ferreira",
+  "dataNascimento": {
+    "$date": "2010-03-02T23:57:26.140Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Noite",
+  "endereco": "Largo Teixeira, 29\nErmelinda\n46028-924 da Costa / RO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Dante Cirino",
+      "fone": "21 8081 0107",
+      "email": "cecilia40@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica",
+    "Dificuldade de Aprendizagem",
+    "TDAH",
+    "Negligência Familiar"
+  ],
+  "matricula": "20240006",
+  "ra": "RA943607",
+  "cpf": "063.894.257-83",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.379Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fd9"
+  },
+  "nome": "Ana Beatriz",
+  "sobrenome": "Teixeira",
+  "dataNascimento": {
+    "$date": "2017-04-06T23:57:26.140Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Manhã",
+  "endereco": "Largo de Pires, 90\nVila São Geraldo\n96816071 Cunha / TO",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica",
+    "Problema Alimentar"
+  ],
+  "matricula": "20240007",
+  "ra": "RA114210",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.393Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fda"
+  },
+  "nome": "Davi Miguel",
+  "sobrenome": "Araújo",
+  "dataNascimento": {
+    "$date": "2015-01-12T23:57:26.141Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Benjamim Pinto",
+      "fone": "(051) 0551-8535",
+      "email": "nmonteiro@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Dificuldade de Aprendizagem"
+  ],
+  "matricula": "20240008",
+  "ra": "RA378132",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.404Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fdb"
+  },
+  "nome": "Luara",
+  "sobrenome": "Rodrigues",
+  "dataNascimento": {
+    "$date": "2017-01-20T23:57:26.141Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Noite",
+  "endereco": "Favela de Casa Grande, 70\nSport Club\n36757063 Melo / MS",
+  "contatosResponsaveis": [
+    {
+      "nome": "Beatriz Cardoso",
+      "fone": "(031) 4838 6341",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Depressão Infantil",
+    "Violência Doméstica",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240009",
+  "ra": "RA131828",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.427Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fdc"
+  },
+  "nome": "Davi Luiz",
+  "sobrenome": "Santos",
+  "dataNascimento": {
+    "$date": "2013-09-07T23:57:26.141Z"
+  },
+  "anoEscolar": "5º Ano",
+  "periodo": "Tarde",
+  "endereco": "Vila de Sá, 22\nManacas\n18312-910 Fernandes / PB",
+  "contatosResponsaveis": [
+    {
+      "nome": "Cauê Pacheco",
+      "fone": "(084) 5188-8304",
+      "email": "frios@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica",
+    "Ansiedade"
+  ],
+  "matricula": "20240010",
+  "ra": "RA588561",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.443Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fdd"
+  },
+  "nome": "Maitê",
+  "sobrenome": "Silva",
+  "dataNascimento": {
+    "$date": "2012-02-25T23:57:26.141Z"
+  },
+  "anoEscolar": "5º Ano",
+  "periodo": "Tarde",
+  "endereco": "Passarela Maria Moraes, 9\nVila São Paulo\n00088092 Alves das Flores / PA",
+  "contatosResponsaveis": [
+    {
+      "nome": "Lavínia Camargo",
+      "fone": "71 9114-8274",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Transtorno Opositor",
+    "Problema Familiar"
+  ],
+  "matricula": "20240011",
+  "ra": "RA514137",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.456Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fde"
+  },
+  "nome": "Rafael",
+  "sobrenome": "Costa",
+  "dataNascimento": {
+    "$date": "2015-08-02T23:57:26.141Z"
+  },
+  "anoEscolar": "4º Ano",
+  "periodo": "Noite",
+  "endereco": "Ladeira Nina Guerra, 6\nEstrela\n53917-681 Silveira do Amparo / PR",
+  "contatosResponsaveis": [
+    {
+      "nome": "Dra. Laura Oliveira",
+      "fone": "(041) 2691-4105",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Depressão Infantil",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240012",
+  "ra": "RA654573",
+  "cpf": "497.538.062-56",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.470Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fdf"
+  },
+  "nome": "João Felipe",
+  "sobrenome": "Costa",
+  "dataNascimento": {
+    "$date": "2018-09-13T23:57:26.141Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Manhã",
+  "endereco": "Recanto de Correia, 55\nBarão Homem De Melo 2ª Seção\n69335-317 Caldeira / RO",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Isolamento Social",
+    "Deficiência Intelectual",
+    "Baixa Frequência",
+    "Dislexia"
+  ],
+  "matricula": "20240013",
+  "ra": "RA526246",
+  "cpf": "142.908.576-20",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.488Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe0"
+  },
+  "nome": "Anthony Gabriel",
+  "sobrenome": "Ribeiro",
+  "dataNascimento": {
+    "$date": "2013-01-22T23:57:26.141Z"
+  },
+  "anoEscolar": "9º Ano",
+  "periodo": "Tarde",
+  "endereco": "Sítio Maria Isis Costa, 33\nEstrela\n42911106 da Paz de Porto / MG",
+  "contatosResponsaveis": [
+    {
+      "nome": "Vitor Jesus",
+      "fone": "(041) 2601 2224",
+      "email": "ramoslarissa@example.com"
+    },
+    {
+      "nome": "Clarice Gonçalves",
+      "fone": "(061) 1422 5088",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Violência Doméstica"
+  ],
+  "matricula": "20240014",
+  "ra": "RA687252",
+  "cpf": "762.543.109-61",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.499Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe1"
+  },
+  "nome": "João Felipe",
+  "sobrenome": "Oliveira",
+  "dataNascimento": {
+    "$date": "2015-04-09T23:57:26.141Z"
+  },
+  "anoEscolar": "4º Ano",
+  "periodo": "Noite",
+  "endereco": "Quadra de Silveira, 9\nHorto\n24598-225 Siqueira da Prata / RJ",
+  "contatosResponsaveis": [
+    {
+      "nome": "Vinícius Silva",
+      "fone": "(084) 7877 4561",
+      "email": "alicia02@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Autismo",
+    "Problema Familiar",
+    "Ansiedade",
+    "Violência Doméstica"
+  ],
+  "matricula": "20240015",
+  "ra": "RA287315",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.514Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe2"
+  },
+  "nome": "Davi Lucca",
+  "sobrenome": "Gomes",
+  "dataNascimento": {
+    "$date": "2015-07-16T23:57:26.141Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Noite",
+  "endereco": "Praça de Vasconcelos\nMirante\n44313-824 Gomes / AP",
+  "contatosResponsaveis": [
+    {
+      "nome": "Miguel Machado",
+      "fone": "0800-135-5144",
+      "email": null
+    },
+    {
+      "nome": "Laura da Mata",
+      "fone": "61 6187-8483",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Dificuldade de Aprendizagem",
+    "Deficiência Intelectual",
+    "Necessita Atenção Especial",
+    "Negligência Familiar"
+  ],
+  "matricula": "20240016",
+  "ra": "RA293541",
+  "cpf": "637.920.548-92",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.525Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe3"
+  },
+  "nome": "Lucca",
+  "sobrenome": "Araújo",
+  "dataNascimento": {
+    "$date": "2015-12-07T23:57:26.141Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Tarde",
+  "endereco": "Estação Isabela Duarte\nBarão Homem De Melo 3ª Seção\n65532-779 Nunes Alegre / AL",
+  "contatosResponsaveis": [
+    {
+      "nome": "Noah Vargas",
+      "fone": "0800-187-1013",
+      "email": "ramosemilly@example.com"
+    },
+    {
+      "nome": "Liam Viana",
+      "fone": "(021) 4837 7891",
+      "email": "bbarros@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Dificuldade de Aprendizagem",
+    "Autismo",
+    "Baixa Frequência"
+  ],
+  "matricula": "20240017",
+  "ra": "RA619687",
+  "cpf": "281.365.409-42",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.540Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe4"
+  },
+  "nome": "Enzo",
+  "sobrenome": "Lima",
+  "dataNascimento": {
+    "$date": "2009-03-30T23:57:26.142Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Noite",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Sr. Diogo Novais",
+      "fone": "0900-543-8535",
+      "email": "joao-lucas56@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Uso de Medicação Controlada"
+  ],
+  "matricula": "20240018",
+  "ra": "RA292807",
+  "cpf": "502.413.798-14",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.553Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe5"
+  },
+  "nome": "Nina",
+  "sobrenome": "Correia",
+  "dataNascimento": {
+    "$date": "2011-12-22T23:57:26.142Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Noite",
+  "endereco": "Pátio Vargas, 422\nCentro\n78067835 das Neves dos Dourados / TO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Dr. Otávio Alves",
+      "fone": "+55 (051) 3319 7327",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Agressividade",
+    "TDAH",
+    "Problema Comportamental"
+  ],
+  "matricula": "20240019",
+  "ra": "RA176635",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.569Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe6"
+  },
+  "nome": "Ana",
+  "sobrenome": "Costa",
+  "dataNascimento": {
+    "$date": "2017-08-18T23:57:26.142Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Caio Silva",
+      "fone": "(021) 4603-4855",
+      "email": "davi59@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Comportamental",
+    "Autismo"
+  ],
+  "matricula": "20240020",
+  "ra": "RA364073",
+  "cpf": "596.184.027-11",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.581Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe7"
+  },
+  "nome": "Emanuelly",
+  "sobrenome": "Correia",
+  "dataNascimento": {
+    "$date": "2015-09-28T23:57:26.142Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Noite",
+  "endereco": "Rua de Andrade, 99\nVila Engenho Nogueira\n28674238 Mendonça / DF",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Agressividade",
+    "Problema Comportamental"
+  ],
+  "matricula": "20240021",
+  "ra": "RA216050",
+  "cpf": "937.814.062-96",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.596Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe8"
+  },
+  "nome": "Luana",
+  "sobrenome": "Melo",
+  "dataNascimento": {
+    "$date": "2009-12-12T23:57:26.142Z"
+  },
+  "anoEscolar": "6º Ano",
+  "periodo": "Noite",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Sr. Matteo Andrade",
+      "fone": "+55 51 6521 0847",
+      "email": "marianemoreira@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Autismo"
+  ],
+  "matricula": "20240022",
+  "ra": "RA347169",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.615Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fe9"
+  },
+  "nome": "Henry",
+  "sobrenome": "Melo",
+  "dataNascimento": {
+    "$date": "2010-08-30T23:57:26.142Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Manhã",
+  "endereco": "Conjunto da Mota, 57\nMarçola\n91862779 Dias / AC",
+  "contatosResponsaveis": [
+    {
+      "nome": "Heloisa Ferreira",
+      "fone": "+55 (081) 8545-7340",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar",
+    "Necessita Atenção Especial"
+  ],
+  "matricula": "20240023",
+  "ra": "RA669325",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.632Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fea"
+  },
+  "nome": "Emilly",
+  "sobrenome": "Oliveira",
+  "dataNascimento": {
+    "$date": "2009-08-24T23:57:26.142Z"
+  },
+  "anoEscolar": "5º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Lucas Alves",
+      "fone": "+55 (051) 9748-0860",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "TDAH"
+  ],
+  "matricula": "20240024",
+  "ra": "RA513915",
+  "cpf": "904.815.672-67",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.642Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37feb"
+  },
+  "nome": "Laura",
+  "sobrenome": "Teixeira",
+  "dataNascimento": {
+    "$date": "2012-12-12T23:57:26.142Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Noite",
+  "endereco": "Pátio Caio Dias, 45\nJaqueline\n69140-863 Rocha / MS",
+  "contatosResponsaveis": [
+    {
+      "nome": "Leonardo Cirino",
+      "fone": "+55 51 7937 0995",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Física",
+    "Deficiência Intelectual"
+  ],
+  "matricula": "20240025",
+  "ra": "RA754395",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.655Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fec"
+  },
+  "nome": "Gabriela",
+  "sobrenome": "Nunes",
+  "dataNascimento": {
+    "$date": "2012-05-24T23:57:26.142Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Natália Sales",
+      "fone": "+55 (051) 9596-6434",
+      "email": "fguerra@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema de Comunicação",
+    "Necessita Atenção Especial",
+    "Autismo",
+    "Problema Alimentar"
+  ],
+  "matricula": "20240026",
+  "ra": "RA289386",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.669Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fed"
+  },
+  "nome": "Ryan",
+  "sobrenome": "Ribeiro",
+  "dataNascimento": {
+    "$date": "2016-04-13T23:57:26.142Z"
+  },
+  "anoEscolar": "5º Ano",
+  "periodo": "Noite",
+  "endereco": "Vereda Breno Costela, 51\nCoqueiros\n07060329 Vasconcelos / AL",
+  "contatosResponsaveis": [
+    {
+      "nome": "Lorena da Paz",
+      "fone": "+55 11 5599-6906",
+      "email": null
+    },
+    {
+      "nome": "Francisco da Luz",
+      "fone": "+55 (021) 2324-0678",
+      "email": "arthur-miguel29@example.org"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Familiar"
+  ],
+  "matricula": "20240027",
+  "ra": "RA557999",
+  "cpf": "790.314.285-23",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.684Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fee"
+  },
+  "nome": "Luiz Otávio",
+  "sobrenome": "Oliveira",
+  "dataNascimento": {
+    "$date": "2013-01-31T23:57:26.142Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Manhã",
+  "endereco": null,
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema de Comunicação",
+    "Ansiedade",
+    "Isolamento Social"
+  ],
+  "matricula": "20240028",
+  "ra": "RA457082",
+  "cpf": "243.079.518-32",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.697Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37fef"
+  },
+  "nome": "Maria Clara",
+  "sobrenome": "Lima",
+  "dataNascimento": {
+    "$date": "2016-10-30T23:57:26.142Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Noite",
+  "endereco": "Rua de Cirino, 84\nVista Alegre\n95001952 Cavalcante / GO",
+  "contatosResponsaveis": [
+    {
+      "nome": "Amanda Lopes",
+      "fone": "11 6645 5028",
+      "email": "da-rochatheodoro@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Intelectual",
+    "Necessita Atenção Especial",
+    "Problema Familiar"
+  ],
+  "matricula": "20240029",
+  "ra": "RA473352",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.712Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff0"
+  },
+  "nome": "Lucas Gabriel",
+  "sobrenome": "Cardoso",
+  "dataNascimento": {
+    "$date": "2014-08-24T23:57:26.142Z"
+  },
+  "anoEscolar": "3º Ano",
+  "periodo": "Tarde",
+  "endereco": "Travessa de Peixoto, 82\nCinquentenário\n34783-599 Peixoto do Galho / MT",
+  "contatosResponsaveis": [
+    {
+      "nome": "Luan Vasconcelos",
+      "fone": "21 8491-6088",
+      "email": "alanacarvalho@example.com"
+    },
+    {
+      "nome": "Guilherme Lopes",
+      "fone": "(061) 0469-4043",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Transtorno Opositor",
+    "Problema Familiar"
+  ],
+  "matricula": "20240030",
+  "ra": "RA412710",
+  "cpf": "415.963.078-20",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.725Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff1"
+  },
+  "nome": "Maria Luísa",
+  "sobrenome": "Ferreira",
+  "dataNascimento": {
+    "$date": "2010-01-18T23:57:26.142Z"
+  },
+  "anoEscolar": "5º Ano",
+  "periodo": "Manhã",
+  "endereco": "Colônia Camargo, 6\nDom Bosco\n06199091 Siqueira / PA",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Autismo",
+    "Dislexia",
+    "Deficiência Intelectual"
+  ],
+  "matricula": "20240031",
+  "ra": "RA832198",
+  "cpf": "380.197.426-03",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.739Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff2"
+  },
+  "nome": "Joaquim",
+  "sobrenome": "Costa",
+  "dataNascimento": {
+    "$date": "2019-02-10T23:57:26.143Z"
+  },
+  "anoEscolar": "2º Ano",
+  "periodo": "Manhã",
+  "endereco": "Sítio Jesus, 92\nAdemar Maldonado\n29323344 Caldeira das Pedras / RJ",
+  "contatosResponsaveis": [
+    {
+      "nome": "Dr. Guilherme Sampaio",
+      "fone": "84 9254-7800",
+      "email": null
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema Alimentar"
+  ],
+  "matricula": "20240032",
+  "ra": "RA351130",
+  "cpf": "187.264.093-13",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.753Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff3"
+  },
+  "nome": "Letícia",
+  "sobrenome": "Machado",
+  "dataNascimento": {
+    "$date": "2011-05-08T23:57:26.143Z"
+  },
+  "anoEscolar": "9º Ano",
+  "periodo": "Tarde",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Emanuella Novais",
+      "fone": "0800-399-8335",
+      "email": "rafaelfarias@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Ansiedade",
+    "TDAH",
+    "Autismo"
+  ],
+  "matricula": "20240033",
+  "ra": "RA637941",
+  "cpf": "958.460.731-66",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.768Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff4"
+  },
+  "nome": "João Lucas",
+  "sobrenome": "Reis",
+  "dataNascimento": {
+    "$date": "2014-07-17T23:57:26.143Z"
+  },
+  "anoEscolar": "1º Ano",
+  "periodo": "Tarde",
+  "endereco": "Vila Benicio Fernandes, 238\nGarças\n58540-241 Ramos de Jesus / SP",
+  "contatosResponsaveis": [
+    {
+      "nome": "Anna Liz Viana",
+      "fone": "(041) 8226-9689",
+      "email": "qcarvalho@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Baixa Frequência",
+    "Problema Familiar",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240034",
+  "ra": "RA351699",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.780Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff5"
+  },
+  "nome": "Maria Laura",
+  "sobrenome": "Teixeira",
+  "dataNascimento": {
+    "$date": "2012-03-23T23:57:26.143Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Noite",
+  "endereco": "Morro de Dias\nPalmeiras\n01957569 Caldeira Paulista / PA",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema de Comunicação",
+    "Problema Comportamental"
+  ],
+  "matricula": "20240035",
+  "ra": "RA718895",
+  "cpf": "715.846.290-02",
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.793Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff6"
+  },
+  "nome": "Maria Liz",
+  "sobrenome": "Melo",
+  "dataNascimento": {
+    "$date": "2015-01-14T23:57:26.143Z"
+  },
+  "anoEscolar": "5º Ano",
+  "periodo": "Noite",
+  "endereco": "Viela de Carvalho, 43\nSão Vicente\n19799507 Borges da Praia / AP",
+  "contatosResponsaveis": [],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "TDAH",
+    "Transtorno Opositor"
+  ],
+  "matricula": "20240036",
+  "ra": "RA854782",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.807Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff7"
+  },
+  "nome": "Ian",
+  "sobrenome": "Teixeira",
+  "dataNascimento": {
+    "$date": "2014-06-18T23:57:26.143Z"
+  },
+  "anoEscolar": "8º Ano",
+  "periodo": "Noite",
+  "endereco": null,
+  "contatosResponsaveis": [
+    {
+      "nome": "Luiz Otávio Araújo",
+      "fone": "11 9694 9563",
+      "email": "hnovais@example.net"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Deficiência Física",
+    "Depressão Infantil",
+    "Necessita Atenção Especial",
+    "Baixa Frequência"
+  ],
+  "matricula": "20240037",
+  "ra": "RA215802",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.821Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff8"
+  },
+  "nome": "Isis",
+  "sobrenome": "Correia",
+  "dataNascimento": {
+    "$date": "2015-05-11T23:57:26.143Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Manhã",
+  "endereco": "Sítio Nascimento, 4\nCdi Jatoba\n10644-941 Silva / BA",
+  "contatosResponsaveis": [
+    {
+      "nome": "Sophie Porto",
+      "fone": "(061) 1726-4274",
+      "email": null
+    },
+    {
+      "nome": "Sr. Marcelo Araújo",
+      "fone": "(084) 8486 7565",
+      "email": "ryan92@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Uso de Medicação Controlada",
+    "Problema Comportamental",
+    "Transtorno Opositor",
+    "Problema de Comunicação"
+  ],
+  "matricula": "20240038",
+  "ra": "RA909301",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.834Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ff9"
+  },
+  "nome": "Amanda",
+  "sobrenome": "Rocha",
+  "dataNascimento": {
+    "$date": "2011-01-05T23:57:26.143Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Noite",
+  "endereco": "Via Moreira, 4\nBernadete\n76686224 Novaes / AC",
+  "contatosResponsaveis": [
+    {
+      "nome": "Luigi Sampaio",
+      "fone": "+55 11 0025-1442",
+      "email": "costamaria-helena@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Problema de Comunicação",
+    "Transtorno Opositor"
+  ],
+  "matricula": "20240039",
+  "ra": "RA784656",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.847Z"
+  },
+  "createdBy": "sistema_fake"
+},
+{
+  "_id": {
+    "$oid": "684259160b7e66c22fa37ffa"
+  },
+  "nome": "Stephany",
+  "sobrenome": "Rocha",
+  "dataNascimento": {
+    "$date": "2010-01-06T23:57:26.143Z"
+  },
+  "anoEscolar": "7º Ano",
+  "periodo": "Manhã",
+  "endereco": "Fazenda de Pacheco, 47\nSanta Sofia\n80432-932 da Rosa / PE",
+  "contatosResponsaveis": [
+    {
+      "nome": "Maitê da Paz",
+      "fone": "51 4678 0821",
+      "email": "maria-juliavieira@example.com"
+    }
+  ],
+  "fotoAlunoId": null,
+  "tagsAtencao": [
+    "Dislexia"
+  ],
+  "matricula": "20240040",
+  "ra": "RA953963",
+  "cpf": null,
+  "dadosPessoais": null,
+  "createdAt": {
+    "$date": "2025-06-05T23:57:26.861Z"
+  },
+  "createdBy": "sistema_fake"
+}]

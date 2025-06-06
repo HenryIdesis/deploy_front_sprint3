@@ -60,7 +60,7 @@ export default function EncaminhamentosTab() {
     setModalMode(mode);
     setIsModalOpen(true);
     if (mode === "edit" && item) {
-      setCurrentId(item._id);
+      setCurrentId(item.id);
       setFormData({
         data: item.data ? item.data.split("T")[0] : "",
         destino: item.destino || "",
@@ -147,7 +147,7 @@ export default function EncaminhamentosTab() {
                 </TableHeader>
                 <TableBody>
                   {encaminhamentos.map((item) => (
-                    <TableRow key={item._id}>
+                    <TableRow key={item.id}>
                       <TableCell>{new Date(item.data).toLocaleDateString("pt-BR")}</TableCell>
                       <TableCell>{item.destino}</TableCell>
                       <TableCell>{item.motivo}</TableCell>
@@ -166,7 +166,7 @@ export default function EncaminhamentosTab() {
                         )}
                         {user?.role === "ADMIN" && (
                           <button 
-                            onClick={() => handleDelete(item._id)}
+                            onClick={() => handleDelete(item.id)}
                             className="p-2 text-red-600 hover:bg-red-50 rounded-full transition-colors"
                             title="Excluir Encaminhamento"
                           >

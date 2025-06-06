@@ -378,12 +378,6 @@ export default function AuditoriaPage() {
     queryFn: () => listarLogsAuditoria({ limit, skip: currentPage * limit }),
   });
 
-  // Buscar estatísticas
-  const { data: statsData, isLoading: isLoadingStats } = useQuery({
-    queryKey: ["audit-stats"],
-    queryFn: obterEstatisticasAuditoria,
-  });
-
   const logs = logsData?.logs || [];
   const totalLogs = logsData?.total || 0;
   const totalPages = Math.ceil(totalLogs / limit);
@@ -410,51 +404,6 @@ export default function AuditoriaPage() {
           </div>
         </div>
       </div>
-
-      {/* Estatísticas */}
-      {statsData && (
-        <div className="grid gap-4 md:grid-cols-4">
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Total de Logs</CardTitle>
-              <Activity className="h-4 w-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{statsData.totalLogs}</div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Usuários Ativos</CardTitle>
-              <Users className="h-4 w-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{statsData.userStats?.length || 0}</div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Collections</CardTitle>
-              <Database className="h-4 w-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{statsData.collectionStats?.length || 0}</div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Páginas</CardTitle>
-              <FileText className="h-4 w-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{totalPages}</div>
-            </CardContent>
-          </Card>
-        </div>
-      )}
 
       {/* Lista de Logs */}
       <Card>

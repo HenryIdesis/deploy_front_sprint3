@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { GraduationCap, BookOpen, Users, LogOut, School, Activity, Shield, UserCog } from "lucide-react";
+import { GraduationCap, BookOpen, Users, LogOut, School, Activity, Shield, UserCog, Settings } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 
 const menuItems = [
@@ -72,6 +72,17 @@ export default function Sidebar() {
                 >
                   <UserCog className="h-5 w-5" />
                   <span className="text-sm font-medium">Gerenciar usuários</span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/configuracoes"
+                  className={({ isActive }) =>
+                    `flex items-center gap-2 p-2 rounded ${isActive ? 'bg-primary text-white' : 'text-primary-dark hover:bg-primary/10'}`
+                  }
+                >
+                  <Settings className="h-5 w-5" />
+                  <span className="text-sm font-medium">Gestão da aplicação</span>
                 </NavLink>
               </li>
             </>

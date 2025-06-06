@@ -13,7 +13,7 @@ const schema = z.object({
   dataNascimento: z.string().nonempty("Data de nascimento obrigatória"),
   anoEscolar: z.string().nonempty("Ano escolar obrigatório"),
   periodo: z.enum(["Manhã", "Tarde", "Noite"], { errorMap: () => ({ message: "Período obrigatório" }) }),
-  enderecoCompleto: z.string().optional(),
+  endereco: z.string().optional(),
   contatosResponsaveis: z
     .array(
       z.object({
@@ -48,7 +48,7 @@ export default function AlunoFormPage() {
       dataNascimento: "",
       anoEscolar: "",
       periodo: "Manhã",
-      enderecoCompleto: "",
+      endereco: "",
       contatosResponsaveis: [{ nome: "", fone: "", email: "" }],
       tagsAtencao: "",
       matricula: "",
@@ -73,7 +73,7 @@ export default function AlunoFormPage() {
             dataNascimento: aluno.dataNascimento ? aluno.dataNascimento.split("T")[0] : "",
             periodo: aluno.periodo || "Manhã",
             tagsAtencao: Array.isArray(aluno.tagsAtencao) ? aluno.tagsAtencao.join(", ") : "",
-            enderecoCompleto: aluno.dadosPessoais?.enderecoCompleto || "",
+            endereco: aluno.endereco || "",
             contatosResponsaveis: aluno.contatosResponsaveis && aluno.contatosResponsaveis.length > 0 
               ? aluno.contatosResponsaveis 
               : [{ nome: "", fone: "", email: "" }],
@@ -99,7 +99,7 @@ export default function AlunoFormPage() {
         dataNascimento: dados.dataNascimento,
         anoEscolar: dados.anoEscolar,
         periodo: dados.periodo,
-        dadosPessoais: { enderecoCompleto: dados.enderecoCompleto || "" },
+        endereco: dados.endereco || "",
         contatosResponsaveis: dados.contatosResponsaveis.filter(
           c => c.nome || c.fone || c.email
         ),
@@ -178,9 +178,9 @@ export default function AlunoFormPage() {
           {errors.periodo && <p className="text-red-500 text-sm">{errors.periodo.message}</p>}
         </div>
         <div>
-          <label className="block font-medium">Endereço Completo</label>
+          <label className="block font-medium">Endereço</label>
           <textarea
-            {...register("enderecoCompleto")}
+            {...register("endereco")}
             className="border rounded w-full p-2"
             rows={3}
           />

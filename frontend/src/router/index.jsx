@@ -13,6 +13,7 @@ import ContraturnoDetailPage from "../features/contraturno/ContraturnoDetailPage
 import ColaboradoresPage from "../features/colaboradores/ColaboradoresPage";
 import AuditoriaPage from "../features/auditoria/AuditoriaPage";
 import UsuariosPage from "../features/usuarios/UsuariosPage";
+import ConfiguracoesPage from "../pages/ConfiguracoesPage";
 import SobreNos from "../components/SobreNos";
 import Comunicado from "../components/Comunicado";
 import { useAuth } from "../context/AuthContext";
@@ -178,6 +179,14 @@ const AppRouter = () => {
         element={
           <ProtectedRoute allowedRoles={[ROLES.ADMIN, ROLES.EDITOR]}>
             <Comunicado />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/configuracoes"
+        element={
+          <ProtectedRoute allowedRoles={[ROLES.ADMIN]}>
+            <ConfiguracoesPage />
           </ProtectedRoute>
         }
       />

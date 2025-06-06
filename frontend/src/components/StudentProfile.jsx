@@ -64,9 +64,15 @@ export const StudentProfile = ({ aluno, onEdit }) => {
               <span className="text-gray-600">CPF:</span>
               <span className="font-medium">{aluno.cpf || "—"}</span>
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-start">
               <span className="text-gray-600">Endereço:</span>
-              <span className="font-medium">{aluno.dadosPessoais?.enderecoCompleto || "—"}</span>
+              <div className="font-medium text-right max-w-xs">
+                {aluno.endereco ? (
+                  <div className="whitespace-pre-line">{aluno.endereco}</div>
+                ) : (
+                  "—"
+                )}
+              </div>
             </div>
           </CardContent>
         </Card>

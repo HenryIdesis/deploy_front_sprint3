@@ -57,4 +57,23 @@ export async function atualizarFrequencia(alunoId, frequenciaId, frequenciaData)
   if (!alunoId || !frequenciaId) throw new Error("ID do aluno e da frequência são obrigatórios.");
   const { data } = await api.put(`/alunos/${alunoId}/frequencias/${frequenciaId}`, frequenciaData);
   return data;
+}
+
+/**
+ * Busca frequências de múltiplos alunos de uma só vez (otimizado).
+ * @param {Array<string>} alunoIds - Array com IDs dos alunos.
+ * @returns {Promise<object>} Objeto com frequências por aluno {alunoId: dados}.
+ */
+export async function listarFrequenciasBatch(alunoIds) {
+  if (!alunoIds || !Array.isArray(alunoIds) || alunoIds.length === 0) {
+    throw new Error("Lista de IDs dos alunos é obrigatória.");
+  }
+  
+  // Limitar para evitar requisições muito grandes
+  if (alunoIds.length > 200) {
+    throw new Error("Máximo de 200 alunos por requisição.");
+  }
+  
+  const { data } = await api.post('/frequencias/batch', { alunoIds });
+  return data;
 } 

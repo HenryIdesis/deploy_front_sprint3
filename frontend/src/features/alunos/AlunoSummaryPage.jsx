@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Card } from "../../components/ui/card";
 import { Button } from "../../components/ui/button";
+import { useAuth } from "../../context/AuthContext";
 import {
   FileText,
   Calendar,
@@ -14,13 +15,16 @@ import {
   ShieldAlert,
   ArrowLeft,
   Download,
+  Trash2,
 } from "lucide-react";
 
 export default function AlunoSummaryPage() {
   const navigate = useNavigate();
   const { id: alunoId } = useParams();
+  const { user } = useAuth();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [reports, setReports] = useState([]);
+  const [deletingReportId, setDeletingReportId] = useState(null);
 
   useEffect(() => {
     const fetchReports = async () => {
@@ -46,14 +50,16 @@ export default function AlunoSummaryPage() {
   }, [alunoId]);
 
   const reportSections = [
-    { id: "boletins", label: "Boletins" },
-    { id: "frequencias", label: "Frequências" },
+    { id: "dados-gerais", label: "Dados Gerais do Aluno" },
+    { id: "saude", label: "Informações de Saúde" },
+    { id: "boletins", label: "Boletins Escolares" },
+    { id: "frequencias", label: "Frequências e Presenças" },
+    { id: "atendimentos", label: "Atendimentos e Intervenções" },
     { id: "encaminhamentos", label: "Encaminhamentos" },
+    { id: "contraturnos", label: "Atividades de Contraturno" },
     { id: "hipotesesEscritas", label: "Hipóteses de Escrita" },
-    { id: "diagnosticos", label: "Diagnósticos" },
+    { id: "diagnosticos", label: "Diagnósticos Pedagógicos" },
     { id: "avaliacoesExternas", label: "Avaliações Externas" },
-    { id: "contraturnos", label: "Contraturnos" },
-    { id: "atendimentos", label: "Atendimentos" },
   ];
 
   const [selectedSections, setSelectedSections] = useState(
@@ -151,6 +157,40 @@ export default function AlunoSummaryPage() {
       window.URL.revokeObjectURL(url);
     } catch (error) {
       alert("Erro ao baixar relatório: " + error.message);
+    }
+  };
+
+  const deleteReport = async (reportId) => {
+    if (!window.confirm("Tem certeza que deseja deletar este relatório? Esta ação não pode ser desfeita.")) {
+      return;
+    }
+
+    setDeletingReportId(reportId);
+    try {
+      const token = localStorage.getItem("token");
+      const response = await fetch(
+        `http://localhost:8000/api/relatorios/${reportId}`,
+        {
+          method: "DELETE",
+          headers: {
+            "X-API-TOKEN": token,
+          },
+        }
+      );
+      
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.detail || "Erro ao deletar relatório");
+      }
+      
+      // Remove o relatório da lista local
+      setReports(prevReports => prevReports.filter(report => report.id !== reportId));
+      alert("Relatório deletado com sucesso!");
+      
+    } catch (error) {
+      alert("Erro ao deletar relatório: " + error.message);
+    } finally {
+      setDeletingReportId(null);
     }
   };
 
@@ -273,14 +313,28 @@ export default function AlunoSummaryPage() {
                       </p>
                     </div>
                   </div>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={() => downloadPdf(report.id)}
-                  >
-                    <Download className="w-4 h-6 mr-2" />
-                    Baixar
-                  </Button>
+                  <div className="flex items-center gap-2">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => downloadPdf(report.id)}
+                    >
+                      <Download className="w-4 h-4 mr-2" />
+                      Baixar
+                    </Button>
+                    {user?.role === "ADMIN" && (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => deleteReport(report.id)}
+                        disabled={deletingReportId === report.id}
+                        className="text-red-600 hover:text-red-700 hover:border-red-300 hover:bg-red-50"
+                      >
+                        <Trash2 className="w-4 h-4 mr-2" />
+                        {deletingReportId === report.id ? "Deletando..." : "Deletar"}
+                      </Button>
+                    )}
+                  </div>
                 </li>
               ))}
             </ul>

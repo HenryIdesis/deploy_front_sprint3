@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Por deploy ou por localhost
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:8000/api",
+  baseURL: "https://helio25-gonzaguinha-2-6.onrender.com/api"  || "http://localhost:8000/api",
   headers: {
     "Content-Type": "application/json",
   },

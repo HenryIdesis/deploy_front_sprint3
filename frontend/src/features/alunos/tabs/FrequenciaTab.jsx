@@ -11,6 +11,7 @@ import { Calendar, PlusCircle, Edit, Trash2, Check, X } from "lucide-react";
 import { listarFrequencias, criarFrequencia, atualizarFrequencia, deletarFrequencia } from "../../../api/frequencias";
 import { toast } from "sonner";
 import { useAuth } from "../../../context/AuthContext";
+import { useConfiguracoes } from "../../../hooks/useConfiguracoes";
 import {
   listarCompensacoesAusencia,
   criarCompensacaoAusencia,
@@ -36,22 +37,10 @@ const calcularPercentPresenca = (totalAulas, faltas) => {
   return ((numTotalAulas - numFaltas) / numTotalAulas) * 100;
 };
 
-function getStatusBadge(percentual) {
-  if (percentual == null || isNaN(percentual)) {
-    return <Badge className="bg-gray-100 text-gray-800">N/D</Badge>;
-  }
-  if (percentual >= 90) {
-    return <Badge className="bg-green-100 text-green-800">Regular</Badge>;
-  } else if (percentual >= 75) {
-    return <Badge className="bg-yellow-100 text-yellow-800">Atenção</Badge>;
-  } else {
-    return <Badge className="bg-red-100 text-red-800">Crítico</Badge>;
-  }
-}
-
 export default function FrequenciaTab() {
   const { id: alunoId } = useParams();
   const { user } = useAuth();
+  const { getStatusFrequencia } = useConfiguracoes();
   const [frequencias, setFrequencias] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -228,6 +217,15 @@ export default function FrequenciaTab() {
   const totalAulas = frequencias.reduce((sum, f) => sum + (Number(f.totalAulas) || 0), 0);
   const totalFaltas = frequencias.reduce((sum, f) => sum + (Number(f.faltas) || 0), 0);
   const frequenciaGeral = totalAulas > 0 ? ((totalAulas - totalFaltas) / totalAulas) * 100 : 0;
+
+  // Função para obter badge de status dinâmico
+  const getStatusBadge = (percentual) => {
+    if (percentual == null || isNaN(percentual)) {
+      return <Badge className="bg-gray-100 text-gray-800">N/D</Badge>;
+    }
+    const statusInfo = getStatusFrequencia(percentual);
+    return <Badge className={statusInfo.color}>{statusInfo.status}</Badge>;
+  };
 
   if (!alunoId) {
     return <div className="p-4 text-red-600">Erro: ID do aluno não encontrado</div>;
